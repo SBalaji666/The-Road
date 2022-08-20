@@ -1,0 +1,178 @@
+//
+@media screen and (max-width: 1200px) {
+  .popular-tours {
+    .cards-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      margin: 3rem;
+    }
+  }
+
+  .stories {
+    .story-bg {
+      width: 75%;
+    }
+  }
+}
+
+//
+@media screen and (max-width: 1000px) {
+  .navbar-wrapper {
+    .nav-list {
+      flex-direction: column;
+    }
+
+    .nav-list-link {
+      flex-grow: 1;
+    }
+  }
+
+  .header {
+    .header-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .header-heading {
+        font-size: 6rem;
+      }
+
+      .header-para {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  //
+  .popular-tours {
+    .popular-tours-heading {
+      font-size: 6rem;
+    }
+  }
+
+  //
+  .stories {
+    .story-bg {
+      transform: skewX(0);
+      width: 90%;
+    }
+
+    .story {
+      transform: skewX(0);
+      flex-direction: column;
+      align-items: center;
+
+      .story-image {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  //
+  .footer {
+    .footer-list {
+      a {
+        margin: 0 1rem;
+        padding: 0.3 0.2rem;
+      }
+    }
+  }
+}
+
+//
+@media screen and (max-width: 800px) {
+  .header {
+    .header-text {
+      .header-para {
+        display: none;
+      }
+    }
+  }
+
+  //
+  .popular-tours {
+    .popular-tours-heading {
+      font-size: 5rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  //
+  .stories {
+    .story-bg {
+      width: 80%;
+      padding: 3rem;
+    }
+  }
+
+  //
+  .contact {
+    .contact-heading {
+      font-size: 6rem;
+      margin-bottom: 6rem;
+    }
+
+    .contact-form {
+      width: 80%;
+    }
+  }
+
+  //
+  .footer {
+    .footer-list {
+      flex-direction: column;
+
+      a {
+        margin: 1rem 0;
+      }
+    }
+
+    .copyright {
+      margin-top: 3rem;
+    }
+  }
+}
+
+//
+@media screen and (max-width: 650px) {
+  .container {
+    margin: 0;
+  }
+
+  .open-navbar-icon {
+    top: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .close-navbar-icon {
+    right: 4rem;
+  }
+
+  .navbar-wrapper {
+    padding: 0;
+  }
+
+  .header {
+    height: 100vh;
+  }
+
+  //
+  .contact {
+    .contact-form {
+      width: 80%;
+      padding: 3rem;
+      height: 40rem;
+    }
+  }
+}
+
+//
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+}
